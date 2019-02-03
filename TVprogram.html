@@ -10,57 +10,116 @@
 <body>
   <header>
     <div class="header-top">
-       <div class="header-top_left">
+       <div class="header-column">
         <div class="header-logo">
           <h3>NETFLIX</h3>
         </div>
-        <div class="header-column">
-          <span class="header-top_menu">TV프로그램</span>
-          <span class="header-top_menu">홈</span>
-          <span class="header-top_menu">영화</span>
-          <span class="header-top_menu">최신등록콘텐츠</span>
-          <span class="header-top_menu">내가찜한콘텐츠</span>
-          <span class="header-top_menu">한국콘텐츠</span>
+        <div class="header-menu">
+          <span class="header-top_menu"><a href="home.html">home</a></span>
+          <span class="header-top_menu selected_menu"><a href="TVprogram.html">TV 프로그램</a></span>
+          <span class="header-top_menu"><a href="movie.html">영화</a></span>
+          <span class="header-top_menu"><a href="new_contents.html">최신등록콘텐츠</a></span>
+          <span class="header-top_menu"><a href="my_contents.html">내가찜한콘텐츠</a></span>
+          <span class="header-top_menu"><a href="korean_contents.html">한국콘텐츠</a></span>
         </div>
        </div>
-       <div class="header-top_right">
-        <div class="header-column">
+       <div class="header-column">
          <i class="fa fa-search"></i>
          <span class="header-top_kids">키즈</span>
          <i class="fa fa-bell"></i>
          <div class="header-top_account">
-          <img src="image/yellow.jpg" alt="한솔계정(노란색)">
-          <i class="fa fa-caret-down"></i>
+           <img src="image/yellow.jpg" alt="한솔계정(노란색)">
+           <i class="fa fa-caret-down"></i>
          </div>
-        </div>
        </div>
-     </div>
+    </div>
     <div class="header-bottom">
-      <div class="header-top_left">
-        <div class="header-column">
-          <h2 class="menu">TV 프로그램</h2>
-        </div>
-        <div class="header-column">
+      <div class="header-column">
+        <span class="menu">TV 프로그램</span>
           <span class="jenre">
             장르
             <i class="fa fa-caret-down"></i>
           </span>
-        </div>
-        <div class="header-top_right">
-          <span class="bar">
-            <i class="fa fa-bars"></i>
-          </span>
-          <span class="recommend">
-            <i class="fa fa-th-large"></i>
-          </span>
-        </div>
+      </div>
+      <div class="header-column">
+        <span class="bar">
+          <i class="fa fa-bars"></i>
+        </span>
+        <span class="recommend">
+          <i class="fa fa-th-large"></i>
+        </span>
       </div>
     </div>
   </header>
 
-  <main clas="home">
-
-
+  <main clas="TVprogram">
+    <div class="main-thumbnail">
+     <div class="netflix_original">NETFLIX 오리지널</div>
+     <div class="recommend-movie"><h1>사랑은 기조처럼<h1></div>
+     <div class="now-view">시즌 1,지금 시청하세요</div>
+     <div class="video-paly">
+       <span class="thumbnail_play">
+         <i class="fa fa-play"></i>
+         재생
+       </span>
+       <span class="thumbnail_play">
+         <i class="fa fa-plus"></i>
+         내가 찜한 콘텐츠
+       </span>
+     </div>
+    </div>
+    <div class="thumbnail_explain">
+      웃음과 우울,비밀과 스릴의 절묘한 공존
+    </div>
+    <div class="main-all_contents">
+      <div class="Netflix-contents">
+        <span class="contents_name">
+          Netflix 인기 콘텐츠
+        </span>
+        <div class="contents-video">
+          <img src="image/1.jpg" alt="">
+          <img src="image/two.jpg" alt="">
+          <img src="image/three.jpg" alt="">
+          <img src="image/four.jpg" alt="">
+          <img sr
+          c="image/five.jpg" alt="">
+        </div>
+      </div>
+      <div class="Netflix-contents">
+        <span class="contents_name">
+          한솔 님이 시청 중인 콘텐츠
+        </span>
+        <div class="contents-video">
+          <img src="image/2.1.jpg" alt="">
+          <img src="image/2.2.jpg" alt="">
+          <img src="image/2.3.jpg" alt="">
+          <img src="image/2.4.jpg" alt="">
+          <img src="image/2.5.jpg" alt="">
+        </div>
+      </div>
+      <div class="Netflix-contents">
+        <span class="contents_name">
+          일본 애니 시리즈
+        </span>
+        <div class="contents-video">
+          <img src="image/3.1.jpg" alt="">
+          <img src="image/3.2.jpg" alt="">
+          <img src="image/3.3.GIF" alt="">
+          <img src="image/3.4.GIF" alt="">
+          <img src="image/3.5.GIF" alt="">
+        </div>
+      </div>
+      <div class="Netflix-contents">
+        <span class="contents_name">
+          내가 찜한 콘텐츠
+        </span>
+        <div class="contents-video">
+          <img src="image/5.1.GIF" alt="">
+          <img src="image/5.2.GIF" alt="">
+          <img src="image/5.3.GIF" alt="">
+        </div>
+      </div>
+    </div>
   </main>
 
   <nav class="navigation">
