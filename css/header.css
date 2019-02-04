@@ -1,0 +1,19 @@
+.header-top, .header-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo {
+  
+}
+
+.header-top_account img {
+  width:41px;
+  height: 40px;
+}
