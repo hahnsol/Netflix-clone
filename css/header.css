@@ -1,19 +1,106 @@
+header {
+  padding-right: 50px;
+  background-color: #141414;
+  position:fixed;
+  top:0;
+}
+
 .header-top, .header-bottom {
   display: flex;
   justify-content: space-between;
+}
+
+.header-column:last-child {
+  float:right;
+  cler:right;
 }
 
 .header-column {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
-.header-logo {
-  
+.header-logo a {
+  color: #E50914;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .header-top_account img {
-  width:41px;
-  height: 40px;
+  width:34px;
+  height: 32px;
+}
+
+.header-top .header-menu {
+  margin-left: 45px;
+  font-size: 14px;
+}
+
+.header-menu a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 400px;
+  color: white;
+}
+
+.header-top .selected_menu {
+  font-weight:600;
+}
+
+.header-column .fa-search {
+  font-size: 15px;
+}
+
+.header-column .header-top_kids {
+  font-size: 13px;
+  padding-left: 22px;
+}
+
+.header-column .fa-bell {
+  font-size: 18px;
+  padding-left: 22px;
+}
+
+.header-top_account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 22px;
+}
+
+.header-top_account i {
+  padding-left: 10px;
+}
+
+.header-bottom {
+  margin-top: 35px;
+}
+
+.header-column .menu {
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 48px;
+}
+
+.header-column .jenre {
+  font-size: 10px;
+  font-weight: 500;
+  background-color: black;
+  border: 1px solid white;
+  padding:4px 8px;
+}
+
+.jenre i {
+  margin-left: 35px;
+}
+
+.bar, .recommend {
+  border: 1px solid white;
+}
+
+.bar, .recommend i{
+  padding:5px 10px;
 }
