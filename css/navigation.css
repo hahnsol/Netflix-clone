@@ -1,0 +1,39 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding-left: 90px;
+}
+
+.navigation-from_netflix_to_another a {
+  text-decoration: none;
+  color:#808080;
+  margin-right: 20px;
+}
+
+.navigation-from_netflix_to_netflix .fntn {
+  display: inline-block;
+  width: 20%;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #808080;
+  font-size: 13px;
+}
+
+.navigation-service_code{
+  margin-top: 30px
+}
+
+.navigation-service_code .service_code {
+  border: 1px solid #808080;
+  margin-top: 20px;
+  font-size: 13px;
+  padding:6px 9px;
+  color:#808080;
+}
+
+.navigation-address {
+  margin-top: 30px;
+  font-size: 11px;
+  color:#808080;
+}

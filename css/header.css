@@ -1,18 +1,17 @@
-header {
-  padding-right: 50px;
+.top_header {
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 10px;
   background-color: #141414;
-  position:fixed;
+  width:100%;
+  position: fixed;
   top:0;
 }
 
-.header-top, .header-bottom {
+.top_header .header-top,
+.top_header .header-bottom {
   display: flex;
   justify-content: space-between;
-}
-
-.header-column:last-child {
-  float:right;
-  cler:right;
 }
 
 .header-column {
