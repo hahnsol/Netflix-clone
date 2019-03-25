@@ -2,8 +2,9 @@ body {
   padding: 10px 0px 17px 50px;
   background-color: #141414;
   color:white;
-  transition: .3s  
+  animation: FadeIn, 30s, ease-in-out;  
 }
+
 
 main {
   padding-top: 111px;
